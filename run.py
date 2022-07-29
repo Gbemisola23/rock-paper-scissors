@@ -4,8 +4,8 @@ import random
 user_wins = 0
 computer_wins = 0
 
-"""Getting data from users"""
-def options('rock', 'paper', 'scissors'): 
+"""Creating variables and conditions for users"""
+options = ["rock", "paper", "scissors"]: 
 while True:
     user_input = input('Type Rock/Paper/Scissors or Q to quit: ').lower()
     if user_input == 'q':
@@ -18,7 +18,11 @@ random_num = random.randint(0,2)
 computer_pick = options[random_num]
 print("Computer picked", computer_pick + ".")
 
+"""Deciding who won"""
+if user_input == 'rock' and computer_pick == 'scissors'
+    print("You Won!")
+    user_wins += 1
+    continue
 
-print("Goodbye!")
 
 
