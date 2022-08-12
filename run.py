@@ -4,7 +4,7 @@ comp_wins = 0
 player_wins = 0
 
 def Choose_Option():
-    user_choice = input("Choose Rock, Paper or Scissors: ")
+    user_choice = input("Choose Rock, Paper or Scissors: \n")
 
     if user_choice in ["Rock", "rock", "r", "R"]:
         user_choice = "r"
