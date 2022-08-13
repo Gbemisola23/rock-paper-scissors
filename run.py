@@ -4,6 +4,7 @@ comp_wins = 0
 player_wins = 0
 
 def Choose_Option():
+    # create a list of player options.
     user_choice = input("Choose Rock, Paper or Scissors: \n")
 
     if user_choice in ["Rock", "rock", "r", "R"]:
@@ -23,6 +24,7 @@ def Choose_Option():
     return user_choice
 
 def Computer_Option():
+    # assign a random play to the computer.
     comp_choice = random.randint(1, 3)
 
     if comp_choice == 1:
@@ -101,5 +103,4 @@ while True:
 
     else:
         break
-
 

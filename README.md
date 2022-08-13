@@ -28,7 +28,7 @@ The live website can be found here [RockPaperScissors Portfolio](https://gbemi-r
 
 ** Input Validation **
 - If the user enters the wrong value, they get prompted to input the right value.
-![validation](assets/images/rock_flowchart.png)
+![validation](assets/images/rock_validation.png)
 
 
 ## Flow Chart
