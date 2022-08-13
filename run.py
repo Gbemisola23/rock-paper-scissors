@@ -84,7 +84,6 @@ while True:
         elif comp_choice == "s":
             print("You chose scissors. The computer chose scissors. You tied.")
 
-
     print("")
 
     print("Player wins: " + str(player_wins))
