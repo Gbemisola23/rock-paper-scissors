@@ -35,10 +35,13 @@ The live website can be found here [RockPaperScissors Portfolio](https://gbemi-r
 Using the website **LucidChart** the flow chart below simply described the flow process of the game.
 ![FlowChart](assets/images/rock_flowchart.png)
 
-## Testing
+## Validator Testing
 I have manually tested this project by doing the following;
-- passed the code through a linter and ensured every errors were corrected.
-- tested in my local terminal and the Code Institute herok terminal.
+- passed the code through the pep8 linter and ensured every errors were corrected.
+- tested in my local terminal and the Code Institute heroku terminal.
+- Blank line contains whitespaces errors were given and resolved.
+![Pep8](assets/images/pep8_validator.png)
+
 
 ## Bugs
 **Solved bugs**
@@ -46,9 +49,6 @@ I have manually tested this project by doing the following;
 
 ##
 No unresolved bugs
-
-## Validator Testing
-- Blank line contains whitespaces errors were given and resolved.
 
 ## Deployment
 -  Navigate to Heroku website and either sign in or click sign up to create a new account.

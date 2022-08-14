@@ -3,6 +3,7 @@ import random
 comp_wins = 0
 player_wins = 0
 
+
 def Choose_Option():
     # create a list of player options.
     user_choice = input("Choose Rock, Paper or Scissors: \n")
@@ -22,6 +23,7 @@ def Choose_Option():
         Choose_Option()
 
     return user_choice
+
 
 def Computer_Option():
     # assign a random play to the computer.
@@ -53,36 +55,27 @@ while True:
             print("You chose rock. The computer chose paper. You lose.")
 
             comp_wins += 1
-     
         elif comp_choice == "s":
             print("You chose rock. The computer chose scissors. You win.")
 
             player_wins += 1
 
-
     elif user_choice == "p":
         if comp_choice == "r":
             print("You chose paper. The computer chose rock. You win.")
-
             player_wins += 1
-        
         elif comp_choice == "p":
             print("You chose paper. The computer chose paper. You tied.")
-            
         elif comp_choice == "s":
             print("You chose paper. The computer chose scissors. You lose.")
             comp_wins += 1
-
     elif user_choice == "s":
         if comp_choice == "r":
             print("You chose scissors. The computer chose rock. You lose.")
             comp_wins += 1
-
         elif comp_choice == "p":
             print("You chose scissors. The computer chose paper. You win.")
             player_wins += 1
-
-            
         elif comp_choice == "s":
             print("You chose scissors. The computer chose scissors. You tied.")
 
@@ -103,4 +96,3 @@ while True:
 
     else:
         break
-
