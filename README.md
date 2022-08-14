@@ -1,14 +1,15 @@
 # ROCK PAPER SCISSORS
 
 Rock,paper, scissors is a python terminal based game which runs in the Code Institute mock terminal on Heroku.
-The live website can be found here [RockPaperScissors Portfolio](https://gbemi-rock-paper-scissors.herokuapp.com/).
+It is based on the traditional rock paper scissors hand game.
+You can read more about it on [Wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors)
+[Wikipedia]:https://en.wikipedia.org/wiki/Rock_paper_scissors.
+The live website through Heroku can be found here [RockPaperScissors Portfolio](https://gbemi-rock-paper-scissors.herokuapp.com/).
+The live website through Github can be found here [RockPaperScissors](https://gbemisola23.github.io/rock-paper-scissors/).
 ![Responsive](assets/images/rockpaper_mockup.png)
 
 ## How To Play
- - It is based on the traditional rock paper scissors hand game.
- You can read more about it on [Wikipedia](https://en.wikipedia.org/wiki/Rock_paper_scissors)
- [Wikipedia]:https://en.wikipedia.org/wiki/Rock_paper_scissors.
- -There are three possible plays.
+ - There are three possible plays.
  - A player who decides to play rock will beat another player who has 
  chosen scissors ("rock crushes scissors" or "breaks scissors" or sometimes "blunts scissors"), 
  - but will lose to one who has played paper ("paper covers rock"); 
@@ -24,7 +25,7 @@ The live website can be found here [RockPaperScissors Portfolio](https://gbemi-r
 - the user decides which play options they want.
 - Play against the computer, accepts user input and maintains scores.
 - If the player and computer both pick the same play options then it's a tie.
-![Tie](assets/images/rrockpaper_tied.png)
+![Tie](assets/images/rockpaper_tied.png)
 
 ** Input Validation **
 - If the user enters the wrong value, they get prompted to input the right value.
@@ -45,7 +46,10 @@ I have manually tested this project by doing the following;
 
 ## Bugs
 **Solved bugs**
-- there were too many blank lines making some of the code ineffective.
+- There were too many blank lines making some of the code ineffective and have been resolved.
+
+## Languages.
+- Python
 
 ##
 No unresolved bugs
