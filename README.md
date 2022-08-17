@@ -71,9 +71,9 @@ No unresolved bugs
 - Now you can deploy the app automatically or manually. Automatically deploy will update the app automatically every time you push any changes to Github.
 - Once the build is successful, you can open the app by clicking Open App button in the top right corner.
 
-* Credits
+## Credits
 - Code Institue for the deployment terminal
-- Wikepedia for the details of the battleship game
+- Wikepedia for the details of the rockpaperscissors game
 - LauraMayock Read.me was helpful in creating mine.
 - Microxoft Course, youTube on how to create flowchart.
 - Programiz, CS DOjo, 10minute train (YouTube) helped to understand how to create rock, paper, scissors, game.
